@@ -1,3 +1,6 @@
+from src.main import add
+import pytest
+
 def test_add():
     assert add(7, 2) == 9
     assert add(5, "2", 3) == "error"
