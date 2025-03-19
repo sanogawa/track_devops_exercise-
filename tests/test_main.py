@@ -22,4 +22,5 @@ def test_add():
     assert add("4", "2.4", 1) == -1
     assert add(None, 3, "5.1") == -1
     assert add("b", 4, 5) == -1
+    assert add(-1,-1,-1) == -2
 
